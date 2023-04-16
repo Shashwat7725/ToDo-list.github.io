@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flex container">
+        <div class="content flex">
+            <div class="content-header flex">
+                <h1>To-Do List</h1>
+                <div class="main-img">
+                    <img src="images/icon.png" alt="icon image">
+                </div>
+            </div>
+            <div class="task-bar flex">
+                <input type="text" placeholder="Add your task" id="input-box"/>
+                <button type="button" onclick="addTask()">Add</button>
+            </div>
+            <ul class="list-container">
+                <!-- <li class="checked">Task1</li>
+                <li>Task2</li>
+                <li>Task3</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
